@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <select id="selectcolor" onchange="colorselect()">
+        <option value="pink">rosa</option>
+        <option value="blue">azul</option>
+        <option value="green">verde</option>
+    </select>
+
+
+    
+    <br>
+    <input type="color"  id="bgcolor" onchange="cambiarcolor()">
+    <button onclick="cambiarcolor()">cambiar color</button>
+    <br>
+    <p class="color" onmouseover="colorear('red')" onmousedown="colorear('pink')">color red y pink</p>
+    <p class="color" onmouseover="colorear('blue')" onmousedown="colorear('orange')">color blue y orange</p>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
